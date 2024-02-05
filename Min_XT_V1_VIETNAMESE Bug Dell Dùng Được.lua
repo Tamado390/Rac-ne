@@ -8,7 +8,7 @@ ScreenGui1.Parent = game.CoreGui
 ScreenGui1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Closed.Parent = ScreenGui1
-Closed.BackgroundColor3 = Color3.fromRGB(0,255,0)
+Closed.BackgroundColor3 = Color3.fromRGB(0,255,255)
 Closed.BorderSizePixel = 0
 Closed.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 Closed.Size = UDim2.new(0, 50, 0, 50)
@@ -118,7 +118,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
         Main.Name = "Main"
         Main.Parent = DoctorShiba
         Main.AnchorPoint = Vector2.new(0.5, 0.5)
-        Main.BackgroundColor3 = Color3.fromRGB(30, 28, 39)
+        Main.BackgroundColor3 = Color3.fromRGB(70, 408, 80)
         Main.BackgroundTransparency = 0.100
         Main.BorderSizePixel = 0
         Main.ClipsDescendants = true
@@ -136,7 +136,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
         local Page = Instance.new("Frame")
         Page.Name = "Page"
         Page.Parent = Main
-        Page.BackgroundColor3 = Color3.fromRGB(25, 23, 35)
+        Page.BackgroundColor3 = Color3.fromRGB(70, 63, 45)
         Page.BackgroundTransparency = 0.100
         Page.BorderSizePixel = 0
         Page.Size = UDim2.new(0, 125, 0, 350)
