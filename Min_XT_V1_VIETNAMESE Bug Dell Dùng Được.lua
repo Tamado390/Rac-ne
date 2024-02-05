@@ -136,7 +136,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
         local Page = Instance.new("Frame")
         Page.Name = "Page"
         Page.Parent = Main
-        Page.BackgroundColor3 = Color3.fromRGB(70, 63, 45)
+        Page.BackgroundColor3 = Color3.fromRGB(40, 83, 70)
         Page.BackgroundTransparency = 0.100
         Page.BorderSizePixel = 0
         Page.Size = UDim2.new(0, 125, 0, 350)
